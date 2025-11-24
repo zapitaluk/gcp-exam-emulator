@@ -93,8 +93,13 @@ const ExamRunner = ({ exam, onExit }) => {
 
     const handleSubmit = () => {
         if (confirm("Are you sure you want to submit your exam?")) {
-            const result = calculateScore();
-            setExamResult(result);
+            try {
+                const result = calculateScore();
+                setExamResult(result);
+            } catch (error) {
+                console.error("Error submitting exam:", error);
+                alert("An error occurred while submitting the exam. Please check the console for details.");
+            }
         }
     };
 
