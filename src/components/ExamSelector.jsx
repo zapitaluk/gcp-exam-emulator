@@ -5,7 +5,7 @@ const ExamSelector = ({ exams, onSelect }) => {
         <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
             <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
                 <div className="flex justify-center mb-6">
-                    <img src={`${import.meta.env.BASE_URL}zapital-logo.png`} alt="Zapital Logo" className="h-12 w-auto" />
+                    <img src={`${import.meta.env.BASE_URL}zapital-logo.png`} alt="Zapital Logo" className="h-16 w-auto" />
                 </div>
                 <h1 className="text-2xl font-bold mb-6 text-center text-gray-800">Select Exam</h1>
                 <div className="space-y-4">
