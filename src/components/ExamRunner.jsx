@@ -112,7 +112,7 @@ const ExamRunner = ({ exam, onExit }) => {
             {/* Header */}
             < header className="bg-white shadow-sm border-b border-gray-200 px-6 py-4 flex justify-between items-center sticky top-0 z-10" >
                 <div className="flex items-center space-x-4">
-                    <img src="zapital-logo.png" alt="Zapital Logo" className="h-10 w-auto" />
+                    <img src={`${import.meta.env.BASE_URL}zapital-logo.png`} alt="Zapital Logo" className="h-10 w-auto" />
                     <div>
                         <h1 className="text-xl font-bold text-gray-800">{exam.name}</h1>
                         <p className="text-sm text-gray-500">Webassessor Simulation</p>
