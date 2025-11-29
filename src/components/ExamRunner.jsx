@@ -111,9 +111,12 @@ const ExamRunner = ({ exam, onExit }) => {
         <div className="min-h-screen bg-gray-100 flex flex-col" >
             {/* Header */}
             < header className="bg-white shadow-sm border-b border-gray-200 px-6 py-4 flex justify-between items-center sticky top-0 z-10" >
-                <div>
-                    <h1 className="text-xl font-bold text-gray-800">{exam.name}</h1>
-                    <p className="text-sm text-gray-500">Webassessor Simulation</p>
+                <div className="flex items-center space-x-4">
+                    <img src="/zapital-logo.png" alt="Zapital Logo" className="h-10 w-auto" />
+                    <div>
+                        <h1 className="text-xl font-bold text-gray-800">{exam.name}</h1>
+                        <p className="text-sm text-gray-500">Webassessor Simulation</p>
+                    </div>
                 </div>
                 <div className="text-lg font-mono font-medium text-gray-700 bg-gray-50 px-4 py-2 rounded border border-gray-200">
                     Time Remaining: {formatTime(timeLeft)}
