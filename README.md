@@ -1,54 +1,45 @@
 # GCP Exam Emulator
 
-A web-based exam emulator designed to mimic the look and feel of Kryterion's Webassessor for Google Cloud Platform exams.
+A Google Cloud Platform certification exam simulator built with React and Vite.
 
-## Features
-
-- **Exam Selection**: Choose from multiple available exams (currently "Cloud Digital Leader" is implemented).
-- **Exam Interface**: Realistic exam environment with a timer, progress bar, and navigation.
-- **Question Types**: Supports single-select and multi-select questions.
-- **Responsive Design**: Built with React and Tailwind CSS for a modern, responsive layout.
-
-## Getting Started
-
-To run this project locally, follow these steps:
-
-### Prerequisites
-
-- Node.js (v16 or higher)
-- npm (comes with Node.js)
-
-### Installation
-
-1.  Clone the repository:
-    ```bash
-    git clone https://github.com/zapitaluk/gcp-exam-emulator.git
-    ```
-2.  Navigate to the project directory:
-    ```bash
-    cd gcp-exam-emulator
-    ```
-3.  Install dependencies:
-    ```bash
-    npm install
-    ```
-
-### Running the Application
-
-Start the development server:
+## 🚀 Quick Start
 
 ```bash
+npm install
 npm run dev
 ```
 
-Open your browser and navigate to `http://localhost:5173` (or the URL shown in your terminal).
+Visit `http://localhost:5173` to use the application.
 
-### Building for Production
+## 📋 Before You Start
 
-To create a production build:
+**Always check outstanding issues first:**
+1. Review [`ISSUES.md`](./ISSUES.md) for known problems
+2. Address blocking issues before adding features
+3. Update `ISSUES.md` when resolving items
 
-```bash
-npm run build
-```
+## 🛠️ Development
 
-The built files will be in the `dist` directory.
+See [`DEVELOPMENT.md`](./DEVELOPMENT.md) for:
+- Version management guidelines
+- Development workflow
+- Best practices
+
+## 🚢 Deployment
+
+The app is deployed to two platforms:
+- **Vercel**: https://gcp-exam-emulator.vercel.app/
+- **GitHub Pages**: https://zapitaluk.github.io/gcp-exam-emulator/
+
+See [`deployment_guide.md`](file:///C:/Users/David/.gemini/antigravity/brain/3085e842-a00f-47dc-b7cc-918087fa035b/deployment_guide.md) for deployment instructions.
+
+## 📦 Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run deploy` - Deploy to GitHub Pages
+- `npm run preview` - Preview production build
+
+## 📝 Version
+
+Current version: Check bottom-right corner of the app for version number.

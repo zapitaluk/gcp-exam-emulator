@@ -1,5 +1,7 @@
 # Development Notes
 
+> **⚠️ IMPORTANT**: Check `ISSUES.md` for outstanding issues before starting new work.
+
 ## Version Management
 
 **IMPORTANT**: Increment the patch version (third number) in `package.json` with **every commit** that includes user-facing changes.
